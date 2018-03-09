@@ -389,6 +389,7 @@ module.exports = {
         },
         mangle: {
           safari10: true,
+          reserved: ['Buffer', 'BigInteger', 'Point', 'ECPubKey', 'ECKey', 'sha512_asm', 'asm', 'ECPair', 'HDNode'],
         },
         output: {
           comments: false,
